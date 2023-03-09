@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,7 +12,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="miurakadai1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tL4-5K-fYb">
@@ -67,12 +66,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="Label" destination="9de-tV-5Pd" id="dR5-v2-dPY"/>
-                        <outlet property="TextField1" destination="tL4-5K-fYb" id="oaK-yj-AJg"/>
-                        <outlet property="TextField2" destination="fPb-dO-TCS" id="kLS-XJ-U9p"/>
-                        <outlet property="TextField3" destination="Vwr-yL-x6R" id="ruf-kq-cc9"/>
-                        <outlet property="TextField4" destination="l8A-Ul-8dm" id="O8A-U8-7gQ"/>
-                        <outlet property="TextField5" destination="4G4-aH-Nu4" id="AYi-wc-ufn"/>
+                        <outlet property="label" destination="9de-tV-5Pd" id="dR5-v2-dPY"/>
+                        <outlet property="textField1" destination="tL4-5K-fYb" id="oaK-yj-AJg"/>
+                        <outlet property="textField2" destination="fPb-dO-TCS" id="kLS-XJ-U9p"/>
+                        <outlet property="textField3" destination="Vwr-yL-x6R" id="ruf-kq-cc9"/>
+                        <outlet property="textField4" destination="l8A-Ul-8dm" id="O8A-U8-7gQ"/>
+                        <outlet property="textField5" destination="4G4-aH-Nu4" id="AYi-wc-ufn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

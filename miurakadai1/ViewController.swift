@@ -10,24 +10,24 @@ import UIKit
 class ViewController: UIViewController {
 
 //  テキストフィールドの作成
-    @IBOutlet weak var TextField1: UITextField!
-    @IBOutlet weak var TextField2: UITextField!
-    @IBOutlet weak var TextField3: UITextField!
-    @IBOutlet weak var TextField4: UITextField!
-    @IBOutlet weak var TextField5: UITextField!
+    @IBOutlet weak var textField1: UITextField!
+    @IBOutlet weak var textField2: UITextField!
+    @IBOutlet weak var textField3: UITextField!
+    @IBOutlet weak var textField4: UITextField!
+    @IBOutlet weak var textField5: UITextField!
     
 //  ラベルの作成
-    @IBOutlet weak var Label: UILabel!
+    @IBOutlet weak var label: UILabel!
     
 //  ボタンの作成
-    @IBAction func Button(_ sender: Any) {
+    @IBAction func button(_ sender: Any) {
         
 //  TextFieldのアンラップ
-        let unwrapped1 = TextField1.text ?? ""
-        let unwrapped2 = TextField2.text ?? ""
-        let unwrapped3 = TextField3.text ?? ""
-        let unwrapped4 = TextField4.text ?? ""
-        let unwrapped5 = TextField5.text ?? ""
+        let unwrapped1 = textField1.text ?? ""
+        let unwrapped2 = textField2.text ?? ""
+        let unwrapped3 = textField3.text ?? ""
+        let unwrapped4 = textField4.text ?? ""
+        let unwrapped5 = textField5.text ?? ""
         
 //  unwappedをInt型に変換
         let number1 = Int(unwrapped1) ?? 0
@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         let totalNumber = number1 + number2 + number3 + number4 + number5
 
 //  ラベルに計算結果を表示
-        Label.text = String(totalNumber)
+        label.text = String(totalNumber)
     }
     
     
